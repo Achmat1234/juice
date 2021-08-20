@@ -207,17 +207,16 @@ html {
   }
   
   header {
-    height: 630px;
-    background-size: cover;
+    height: 628px;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/Capture.PNG");
+    background-image: url(../img/istockphoto-157424215-612x612.jpg);
     position: relative;
-  
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 2fr 1fr;
-  }
+}
   
   .headerCopy {
     grid-column: 2/6;
